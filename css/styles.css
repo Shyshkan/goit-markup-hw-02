@@ -2,6 +2,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --background-color: f5f4fa;
   --footer-background-color: #2f303a;
   --white-color: #ffffff;
 }
@@ -10,7 +11,7 @@ body {
   background: var(--white-color);
   letter-spacing: 0.03em;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71em;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
@@ -30,7 +31,7 @@ body {
 .logo {
   font-family: "Raleway";
   font-size: 26px;
-  font-weight: bold;
+  line-height: 1.19em;
   font-weight: 700;
   color: #000000;
 }
@@ -40,7 +41,7 @@ body {
 .site-nav {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14em;
   letter-spacing: 0.02em;
 }
 .site-nav-item a {
@@ -68,40 +69,39 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36em;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
   font-weight: 900;
 }
 .hero-button {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87em;
   color: var(--white-color);
   background-color: var(--accent-color);
 }
 
 /* Особенности */
 .features-title {
-  font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14em;
   font-weight: 700;
   color: var(--title-text-color);
 }
 /* Чем мы занимаемся */
 .section-title {
-  font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17em;
   text-align: center;
   font-weight: 700;
   color: var(--title-text-color);
 }
 /* Наша команда */
 .team {
-  background-color: #f5f4fa;
+  font-size: 16px;
+  background-color: var(--background-color);
 }
 .team-item {
   background-color: var(--white-color);
@@ -110,13 +110,13 @@ body {
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19em;
   text-align: center;
   font-weight: 500;
   color: var(--title-text-color);
 }
 .team-position {
-  line-height: 19px;
+  line-height: 1.14em;
   text-align: center;
   color: var(--primary-text-color);
 }
@@ -148,10 +148,10 @@ footer {
 .portfolio-filter-item {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62em;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  background-color: #f5f4fa;
+  background-color: var (--background-color);
 }
 .portfolio-filter-item:focus,
 .portfolio-filter-item:hover {
@@ -159,13 +159,15 @@ footer {
   background-color: var(--accent-color);
 }
 .work-name {
-  font-weight: bold;
+  text-align: center;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2em;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 .work-type {
+  text-align: center;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87em;
 }
