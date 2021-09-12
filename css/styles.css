@@ -9,28 +9,41 @@ body {
   color: var(--primary-text-color);
   background: var(--white-color);
   letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 24px;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 .link {
   text-decoration: none;
-  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
 }
+.button {
+  font-family: "Roboto";
+}
+.button:hover {
+  cursor: pointer;
+}
 /* Шапка */
-.logo-black {
+.logo {
   font-family: "Raleway";
-  font-weight: 700;
   font-size: 26px;
+  font-weight: bold;
+  font-weight: 700;
   color: #000000;
 }
-.logo-black span {
+.logo span {
   color: var(--accent-color);
 }
-.site-nav-item a {
+.site-nav {
   font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.site-nav-item a {
   color: var(--title-text-color);
 }
 .site-nav-item a:hover,
@@ -50,28 +63,41 @@ body {
 }
 /* Банер */
 .hero {
-  color: var(--white-color);
   background-color: var(--footer-background-color);
 }
 .hero-title {
   font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  font-weight: 900;
 }
 .hero-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
   color: var(--white-color);
   background-color: var(--accent-color);
 }
-.hero-button:hover {
-  cursor: pointer;
-}
+
 /* Особенности */
 .features-title {
-  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
   font-weight: 700;
+  color: var(--title-text-color);
 }
 /* Чем мы занимаемся */
 .section-title {
-  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
   font-weight: 700;
+  color: var(--title-text-color);
 }
 /* Наша команда */
 .team {
@@ -82,43 +108,47 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .team-name {
-  color: var(--title-text-color);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  font-weight: 500;
+  color: var(--title-text-color);
 }
 .team-position {
+  line-height: 19px;
+  text-align: center;
   color: var(--primary-text-color);
 }
 footer {
   background-color: var(--footer-background-color);
 }
-.logo-white {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
+.logo.white {
   color: var(--white-color);
 }
-.logo-white span {
-  color: var(--accent-color);
-}
+
 .contacts-address {
-  color: var(--white-color);
   font-style: normal;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
 }
 .contacts-address:hover,
 .contacts-address:focus {
   color: var(--accent-color);
 }
 .contacts-item {
-  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
   font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
 }
 .contacts-item:hover,
 .contacts-item:focus {
   color: var(--accent-color);
 }
 .portfolio-filter-item {
-  font-family: Roboto;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: #f5f4fa;
@@ -129,5 +159,13 @@ footer {
   background-color: var(--accent-color);
 }
 .work-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
   color: var(--title-text-color);
+}
+.work-type {
+  font-size: 16px;
+  line-height: 30px;
 }
