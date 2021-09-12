@@ -22,7 +22,7 @@ body {
   list-style: none;
 }
 .button {
-  font-family: "Roboto";
+  font-family: inherit;
 }
 .button:hover {
   cursor: pointer;
