@@ -1,61 +1,76 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --footer-background-color: #2f303a;
+  --white-color: #ffffff;
+}
 body {
-  color: #757575;
-  background: #e5e5e5;
+  color: var(--primary-text-color);
+  background: var(--white-color);
+  letter-spacing: 0.03em;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-a {
+.link {
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
-ul {
+.list {
   list-style: none;
 }
 /* Шапка */
-header {
-  background-color: #ffffff;
-}
-.logo {
+.logo-black {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   color: #000000;
 }
-.logo span {
-  color: #2196f3;
+.logo-black span {
+  color: var(--accent-color);
 }
 .site-nav-item a {
   font-weight: 500;
-  color: #212121;
+  color: var(--title-text-color);
 }
-.site-nav-item a:hover {
-  color: #2196f3;
+.site-nav-item a:hover,
+.site-nav-item a:focus {
+  color: var(--accent-color);
 }
+.site-nav-item .link.current {
+  color: var(--accent-color);
+}
+
 .mail-tel-item a {
-  color: #757575;
+  color: var(--primary-text-color);
 }
-.mail-tel-item a:hover {
-  color: #2196f3;
+.mail-tel-item a:hover,
+.mail-tel-item a:focus {
+  color: var(--accent-color);
 }
 /* Банер */
 .hero {
-  color: #ffffff;
-  background-color: #2f303a;
+  color: var(--white-color);
+  background-color: var(--footer-background-color);
 }
 .hero-title {
   font-weight: 900;
 }
 .hero-button {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.hero-button:hover {
+  cursor: pointer;
 }
 /* Особенности */
-.particular-title {
-  color: #212121;
+.features-title {
+  color: var(--title-text-color);
   font-weight: 700;
 }
 /* Чем мы занимаемся */
-.doing-title {
-  color: #212121;
+.section-title {
+  color: var(--title-text-color);
   font-weight: 700;
 }
 /* Наша команда */
@@ -63,32 +78,56 @@ header {
   background-color: #f5f4fa;
 }
 .team-item {
-  background-color: #ffffff;
+  background-color: var(--white-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .team-name {
-  color: #212121;
+  color: var(--title-text-color);
   font-weight: 500;
 }
 .team-position {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 footer {
-  background-color: #2f303a;
+  background-color: var(--footer-background-color);
+}
+.logo-white {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--white-color);
+}
+.logo-white span {
+  color: var(--accent-color);
 }
 .contacts-address {
-  color: #ffffff;
+  color: var(--white-color);
   font-style: normal;
-  letter-spacing: 0.03em;
+}
+.contacts-address:hover,
+.contacts-address:focus {
+  color: var(--accent-color);
 }
 .contacts-item {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
-  letter-spacing: 0.03em;
 }
-/* текст #000000 */
-/* вторичный текст #212121 */
-/* акцент #2196F3 */
-/* белый #FFFFFF */
-/* контакт rgba(255, 255, 255, 0.6) */
-/* задник #2F303A */
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--accent-color);
+}
+.portfolio-filter-item {
+  font-family: Roboto;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+.portfolio-filter-item:focus,
+.portfolio-filter-item:hover {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.work-name {
+  color: var(--title-text-color);
+}
