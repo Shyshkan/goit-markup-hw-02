@@ -1,5 +1,94 @@
-body{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+body {
+  color: #757575;
+  background: #e5e5e5;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* Шапка */
+header {
+  background-color: #ffffff;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  color: #000000;
+}
+.logo span {
+  color: #2196f3;
+}
+.site-nav-item a {
+  font-weight: 500;
+  color: #212121;
+}
+.site-nav-item a:hover {
+  color: #2196f3;
+}
+.mail-tel-item a {
+  color: #757575;
+}
+.mail-tel-item a:hover {
+  color: #2196f3;
+}
+/* Банер */
+.hero {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+}
+.hero-button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* Особенности */
+.particular-title {
+  color: #212121;
+  font-weight: 700;
+}
+/* Чем мы занимаемся */
+.doing-title {
+  color: #212121;
+  font-weight: 700;
+}
+/* Наша команда */
+.team {
+  background-color: #f5f4fa;
+}
+.team-item {
+  background-color: #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.team-name {
+  color: #212121;
+  font-weight: 500;
+}
+.team-position {
+  color: #757575;
+}
+footer {
+  background-color: #2f303a;
+}
+.contacts-address {
+  color: #ffffff;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+.contacts-item {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+/* текст #000000 */
+/* вторичный текст #212121 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* контакт rgba(255, 255, 255, 0.6) */
+/* задник #2F303A */
